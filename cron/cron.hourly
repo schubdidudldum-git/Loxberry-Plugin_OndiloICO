@@ -9,7 +9,7 @@
 
 # Will be executed as user "loxberry".
 
-if [ -e $LBPDATA/REPLACEBYSUBFOLDER/ico.py ]
+if [ -e $LBPDATA/ICOv2/ico.py ]
 then
-  /usr/bin/python3 $LBPDATA/REPLACEBYSUBFOLDER/ico.py --logfile=$LBPLOG/REPLACEBYSUBFOLDER/ico.log --configfile=$LBPCONFIG/REPLACEBYSUBFOLDER/ico.cfg
+  /usr/bin/python3 $LBPDATA/ICOv2/ico.py --logfile=$LBPLOG/ICOv2/ico.log --configfile=$LBPCONFIG/ICOv2/ico.cfg
 fi
