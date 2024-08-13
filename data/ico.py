@@ -42,8 +42,8 @@ def main(args):
     ### Parse PlugIn config file
     # ---------------------------------------------
    
-    lbpConfigICOCFG = os.path.join(PConfig.plugin("LBPCONFIG"),"ICO", "ico.cfg")
-    lbpConfigICOtoken = os.path.join(PConfig.plugin("LBPCONFIG"),"ICO", "token.txt")
+    lbpConfigICOCFG = os.path.join(PConfig.plugin("LBPCONFIG"),"ICOv2", "ico.cfg")
+    lbpConfigICOtoken = os.path.join(PConfig.plugin("LBPCONFIG"),"ICOv2", "token.txt")
     #print('lbpConfigICOCFG:',lbpConfigICOCFG)
     #print('lbpConfigICOtoken:',lbpConfigICOtoken)
     
